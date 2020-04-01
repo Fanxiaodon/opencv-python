@@ -64,7 +64,7 @@ if __name__ == "__main__":
     img = cv2.imread('lena.bmp', cv2.IMREAD_GRAYSCALE)
     img_salt = add_salt_pepper(img, 0.02)
     img_pulse = add_impulse(img, 0.02)
-    img_gauss = add_gauss(img)
+    img_gauss = add_gauss(img, var=0.001)
     img_aver = cv2.blur(img_salt, (5, 5))
     img_media = cv2.medianBlur(img_salt, 3)
 

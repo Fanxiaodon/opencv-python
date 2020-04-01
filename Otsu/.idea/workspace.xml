@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec36574a-7be8-4dfd-bbe7-40870f81a67d" name="Default Changelist" comment="" />
+    <list default="true" id="adb812a1-30bd-4d2d-b9b3-e470995dabec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ZG53hwEEtQcB0fwmEIfqTRzIYU" />
+  <component name="ProjectId" id="1Zs5JYOxOVvd5900R28EC1tKseV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,12 +30,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\opencv design\HistNormal" />
+      <recent name="G:\opencv design\Otsu" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Hist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HistNormal" />
+    <configuration name="Otsu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Otsu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -46,7 +46,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Otsu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Hist" />
+        <item itemvalue="Python.Otsu" />
       </list>
     </recent_temporary>
   </component>
@@ -66,30 +66,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec36574a-7be8-4dfd-bbe7-40870f81a67d" name="Default Changelist" comment="" />
-      <created>1584452392987</created>
+      <changelist id="adb812a1-30bd-4d2d-b9b3-e470995dabec" name="Default Changelist" comment="" />
+      <created>1585614889927</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584452392987</updated>
+      <updated>1585614889927</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="64" key="GridCell.Tab.0.bottom" timestamp="1584519871177">
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1585620474135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="64" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584519871177" />
-    <state width="1515" height="64" key="GridCell.Tab.0.center" timestamp="1584519871177">
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585620474135" />
+    <state width="1515" height="63" key="GridCell.Tab.0.bottom" timestamp="1585635590363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="64" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584519871177" />
-    <state width="1515" height="64" key="GridCell.Tab.0.left" timestamp="1584519871177">
+    <state width="1515" height="63" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585635590363" />
+    <state width="1515" height="63" key="GridCell.Tab.0.center" timestamp="1585635590363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="64" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584519871177" />
-    <state width="1515" height="64" key="GridCell.Tab.0.right" timestamp="1584519871177">
+    <state width="1515" height="63" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585635590363" />
+    <state width="1515" height="63" key="GridCell.Tab.0.left" timestamp="1585635590363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="64" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584519871177" />
+    <state width="1515" height="63" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585635590363" />
+    <state width="1515" height="63" key="GridCell.Tab.0.right" timestamp="1585635590363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="63" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585635590363" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585745070887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585745070887" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585615969306">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585615969306" />
   </component>
 </project>
